@@ -32,7 +32,7 @@
 
 ### Properties
 - [prefix](https://github.com/QuentinFTL/PluginsBP/blob/2733be676688fcfd007d5f2a21de64eec93a69d5/PluginsBPVoid/scripts/class/CommandManager.js#L24C14-L24C20): string to replace '/' for commands.
-- commands: Object array where commands will be stored in.
+- [commands](https://github.com/QuentinFTL/PluginsBP/blob/2733be676688fcfd007d5f2a21de64eec93a69d5/PluginsBPVoid/scripts/class/CommandManager.js#L25C14-L25C22): Object array where commands will be stored in.
 
 ### Methods
 - [addJson(json, pluginName = "")](https://github.com/QuentinFTL/PluginsBP/blob/2733be676688fcfd007d5f2a21de64eec93a69d5/PluginsBPVoid/scripts/class/CommandManager.js#L30C5-L30C37): add commands from a json object, pluginName will help CorePlugin to search command with this name 
