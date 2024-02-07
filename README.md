@@ -31,7 +31,7 @@
 > Register your commands with this object !
 
 ### Properties
-- prefix: string to replace '/' for commands.
+- [prefix](https://github.com/QuentinFTL/PluginsBP/blob/2733be676688fcfd007d5f2a21de64eec93a69d5/PluginsBPVoid/scripts/class/CommandManager.js#L24C14-L24C20): string to replace '/' for commands.
 - commands: Object array where commands will be stored in.
 
 ### Methods
