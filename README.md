@@ -19,7 +19,7 @@
 > Only after it initiated.
 
 ### Properties
-- plugins[]: all plugins are register inside (name, path, obj) for each index.
+- [plugins\[\]](https://github.com/QuentinFTL/PluginsBP/blob/5210d0e8acfd4daed1ed6ef2d016f4de77bcdad9/PluginsBPVoid/scripts/class/PluginManager.js#L20): all plugins are register inside (name, path, obj) for each index.
 - commandManager: [CommandManager](https://github.com/QuentinFTL/PluginsBP/blob/main/PluginsBPVoid/scripts/class/CommandManager.js) object for [PluginManager](https://github.com/QuentinFTL/PluginsBP/blob/main/PluginsBPVoid/scripts/class/PluginManager.js).
 
 ### Static Methods
