@@ -1,7 +1,8 @@
-import { system } from "@minecraft/server";
+import { system, world } from "@minecraft/server";
 import { CommandManager } from "./CommandManager.js";
 import { Color } from "./MinecraftConst.js";
 
+export let dynamicProperties = {};
 
 export class PluginManager {
 
@@ -66,11 +67,28 @@ export class PluginManager {
         }
     }
 
+    getPlayerByName(name) {
+        let players = world.getAllPlayers();
+
+        for (let i = 0; i < players.length; i++) {
+            const player = players[i];
+            //console.warn(JSON.stringify(player));
+            if(player.name == name) {
+                return player;
+            }
+        }
+
+
+        return null;
+    }
+
     loadPlugin(plugin) {
         let mgr = this;
 
         import(`../${plugin.path}`).then(t => {
             let v = new t.default();
+            
+            v.load();
             mgr.plugins.push({ name: plugin.name, path: plugin.path, obj: v });
 
             this.plugins_num--;
