@@ -20,7 +20,7 @@
 
 ### Properties
 - [plugins\[\]](https://github.com/QuentinFTL/PluginsBP/blob/5210d0e8acfd4daed1ed6ef2d016f4de77bcdad9/PluginsBPVoid/scripts/class/PluginManager.js#L20): all plugins are register inside (name, path, obj) for each index.
-- commandManager: [CommandManager](https://github.com/QuentinFTL/PluginsBP/blob/main/PluginsBPVoid/scripts/class/CommandManager.js) object for [PluginManager](https://github.com/QuentinFTL/PluginsBP/blob/main/PluginsBPVoid/scripts/class/PluginManager.js).
+- [commandManager](https://github.com/QuentinFTL/PluginsBP/blob/5210d0e8acfd4daed1ed6ef2d016f4de77bcdad9/PluginsBPVoid/scripts/class/PluginManager.js#L22): [CommandManager](https://github.com/QuentinFTL/PluginsBP/blob/main/PluginsBPVoid/scripts/class/CommandManager.js) object for [PluginManager](https://github.com/QuentinFTL/PluginsBP/blob/main/PluginsBPVoid/scripts/class/PluginManager.js).
 
 ### Static Methods
 - [getPlayerByName(name)](https://github.com/QuentinFTL/PluginsBP/blob/dc95661c7df404b9fc79b1dfc8e31f5756a79f62/PluginsBPVoid/scripts/class/PluginManager.js#L70): return the player if it exists, else undefined.
