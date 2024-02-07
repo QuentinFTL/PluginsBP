@@ -56,7 +56,7 @@ export class Plugin {
     }
 
     missingDependencies(keepPluginAlive, deps) {
-        console.warn("::"+typeof deps);
+        console.warn("missing deps: "+ JSON.stringify(deps));
         if(typeof deps == "object") {
             let deps_ = "";
 
