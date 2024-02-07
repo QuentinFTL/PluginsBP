@@ -25,7 +25,7 @@
 ### Static Methods
 - [getPlayerByName(name)](https://github.com/QuentinFTL/PluginsBP/blob/dc95661c7df404b9fc79b1dfc8e31f5756a79f62/PluginsBPVoid/scripts/class/PluginManager.js#L70): return the player if it exists, else undefined.
 - [showPlugins(sender)](https://github.com/QuentinFTL/PluginsBP/blob/dc95661c7df404b9fc79b1dfc8e31f5756a79f62/PluginsBPVoid/scripts/class/PluginManager.js#L101): show '!plugin' message for sender.
-- showHelp(sender, page_ = null, plugin_ = null): show '!help' message for sender.
+- [showHelp(sender, page_ = null, plugin_ = null)](https://github.com/QuentinFTL/PluginsBP/blob/dc95661c7df404b9fc79b1dfc8e31f5756a79f62/PluginsBPVoid/scripts/class/PluginManager.js#L120): show '!help' message for sender.
 
 ## CommandManager
 > Register your commands with this object !
