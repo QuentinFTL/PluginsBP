@@ -35,7 +35,7 @@
 - commands: Object array where commands will be stored in.
 
 ### Methods
-- addJson(json, pluginName = ""): add commands from a json object, pluginName will help CorePlugin to search command with this name 
+- [addJson(json, pluginName = "")](https://github.com/QuentinFTL/PluginsBP/blob/2733be676688fcfd007d5f2a21de64eec93a69d5/PluginsBPVoid/scripts/class/CommandManager.js#L30C5-L30C37): add commands from a json object, pluginName will help CorePlugin to search command with this name 
 
 
 ## Installation
