@@ -59,3 +59,5 @@ export default class CorePlugin extends Plugin {
     }
 }
 
+globalThis.Core = CorePlugin;
+
