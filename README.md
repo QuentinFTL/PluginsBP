@@ -9,8 +9,8 @@
 - add_user_array(): initialize an array specific for users.
 - set_user_array(name, user, value): set value for array[name + user(id)].
 - get_user_array(name, user): get value for array[name + user(id)].
-- load(\[prefix\]): this will load a message with prefix (or not) ont the game, when the plugin will be loaded.
-- start(\[prefix\]): this will load a message with prefix (or not) ont the game, when the plugin will start (after all plugins loaded).
+- load(\[prefix\]): this will load a message with prefix (or not) on the game, when the plugin will be loaded.
+- start(\[prefix\]): this will load a message with prefix (or not) on the game, when the plugin will start (after all plugins loaded).
 - commands(plugin, json): setup commands for the plugin, 'plugin' argument will help for CorePlugin to get help for this plugin ex: '!help \[page\] \[plugin\]'.
 - missingDependencies(keepPluginAlive, deps): load a message on world if deps length > 0, and stop plugin load if keepPluginAlive (WIP...).
 
